@@ -1,49 +1,5 @@
-{% extends 'base.html'%}
-
-{% block title %}
-    Home
-{% endblock title %}
-
-
+{% extends "base.html" %}
+{% block title %}home{% endblock title %}
 {% block body %}
-      <div class="container-fluid px-0">
-        <div id="carouselExample" class="carousel slide">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="https://source.unsplash.com/1600x600/?mechanics" class="d-block w-100" alt="...">
-             </div>
-              <div class="carousel-item">
-                <img src="https://source.unsplash.com/1600x600/?car" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="https://source.unsplash.com/1600x600/?engineer" class="d-block w-100" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
+BOODYYY{% endblock body %}
 
-        <div class="container">
-            <div class="row">
-              <div class="col-sm-8 col-md-7 py-4">
-                <h4>About</h4>
-                <p class="text-body-secondary">Add some information about MEA.</p>
-              </div>
-              <div class="col-sm-4 offset-md-1 py-4">
-                <h4>Contact</h4>
-                <ul class="list-unstyled">
-                  <li><a href="#" class="text-white">Follow on Twitter</a></li>
-                  <li><a href="#" class="text-white">Like on Facebook</a></li>
-                  <li><a href="#" class="text-white">Email me</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-{% endblock body %}
