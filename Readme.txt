@@ -1,4 +1,4 @@
-Since it was taking too much time to load , therefore i've made submitted whole folder here.
+Since it was taking too much time to load , therefore i've submitted whole folder here.
 
 Download and paste this in any folder
 Open it with vs code
